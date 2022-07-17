@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
+import Header from "../components/header/Header";
 
 const Portfolio = () => {
   return (
     <>
-      <Navbar />
-      <h1>Here is the Portfolio page</h1>
-      <NavLink to="/about">About</NavLink>
+      <Navbar page="portfolio" />
+      <Header />
     </>
   );
 };
