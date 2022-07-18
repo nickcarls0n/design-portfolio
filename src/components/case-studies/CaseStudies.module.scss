@@ -1,0 +1,18 @@
+.caseStudies {
+  margin-top: 200px;
+  margin-bottom: 80px;
+
+  .caseWrapper {
+    margin-bottom: 160px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    transition: all 200ms ease-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
