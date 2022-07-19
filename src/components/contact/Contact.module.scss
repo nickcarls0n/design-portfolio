@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+
+.contact {
+  h2 {
+    padding-bottom: 24px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 12px;
+  }
+
+  input,
+  textarea {
+    background-color: $section-background;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 24px;
+
+    &:focus-visible {
+      outline: $high-light auto thin;
+    }
+  }
+}

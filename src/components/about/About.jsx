@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./About.module.scss";
-import Button from "../button/Button";
+import { Button } from "../button/Button";
 
 const About = () => {
   return (
     <div className={styles.about}>
       <div className="container">
-        <div className="row">
-          <div className="col-sm-7">
+        <div className="row position-relative">
+          <div className={`col-lg-6 ${styles.textSection}`}>
             <h2>About Me</h2>
             <p>
               Throughout my career, I have lead projects in user interface
@@ -33,12 +33,15 @@ const About = () => {
                   <li>React.js</li>
                   <li>HTML</li>
                   <li>Css / Scss</li>
-                  <li>JasvaScript</li>
+                  <li>JavaScript</li>
                   <li>WordPress / PHP</li>
                 </ul>
               </div>
             </div>
             <Button to="/">More about me</Button>
+          </div>
+          <div className={styles.imgWrapper}>
+            <img src="/images/headshot.jpg" alt="head shot" />
           </div>
         </div>
       </div>

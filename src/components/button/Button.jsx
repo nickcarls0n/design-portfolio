@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "./Button.module.scss";
 
-const Button = (props) => {
+export const Button = (props) => {
   return (
     <NavLink to={props.to} className={styled.button}>
       {props.children}
@@ -10,4 +10,10 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export const SubmitButton = (props) => {
+  return (
+    <button type="submit" className={styled.button}>
+      {props.children}
+    </button>
+  );
+};

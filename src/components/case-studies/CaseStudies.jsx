@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../button/Button";
+import { Button } from "../button/Button";
 import styles from "./CaseStudies.module.scss";
 
 const CaseStudies = () => {
