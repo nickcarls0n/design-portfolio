@@ -12,11 +12,11 @@ const Portfolio = () => {
     <>
       <Navbar page="portfolio" />
       <Header />
-      <CaseStudies />
-      <MoreWork />
-      <About />
-      <Contact />
-      <Footer />
+      {/* <CaseStudies /> */}
+      {/* <MoreWork /> */}
+      {/* <About /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   );
 };
