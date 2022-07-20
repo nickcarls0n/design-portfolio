@@ -1,40 +1,68 @@
 @import "../../styles/variables";
 
 .header {
-  background-image: url(../../../public/images/header-background-mvp.png);
+  background-image: url(../../../public/images/mobile-header.png);
   background-position: center;
   background-size: cover;
 
-  .column {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+  @media screen and (min-width: $sm) {
+    background-image: url(../../../public/images/header-background-mvp.png);
   }
 
   .textblock {
-    width: 640px;
-    text-align: right;
-    align-self: end;
-    padding: 280px 0 200px 0;
+    padding-top: 80px;
+
+    @media screen and (min-width: $sm) {
+      text-align: right;
+      padding-top: 240px;
+      padding-bottom: 210px;
+    }
   }
 
   .heading {
-    font-size: 4rem;
+    font-size: 3rem;
+    line-height: 1.17;
     font-weight: 600;
     color: $text-color;
+
+    @media screen and (min-width: $sm) {
+      font-size: 4rem;
+    }
   }
 
   .paragraph {
-    font-size: 1.5rem;
-    line-height: 2;
+    font-size: 1.25rem;
+    line-height: 1.65;
+    font-weight: 300;
     color: $text-color;
     padding: 36px 0 40px 0;
+
+    @media screen and (min-width: $sm) {
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+  }
+
+  .tagline {
+    width: 240px;
+    float: right;
+    color: $high-light;
+    text-align: right;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: $sm) {
+      width: 400px;
+      font-size: 1.25rem;
+      font-weight: 300;
+      line-height: 1.7;
+    }
   }
 
   .scroll {
     text-align: center;
     align-self: center;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    font-weight: 300;
+    color: $high-light;
   }
 }
