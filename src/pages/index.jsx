@@ -12,8 +12,8 @@ const Portfolio = () => {
     <>
       <Navbar page="portfolio" />
       <Header />
-      {/* <CaseStudies /> */}
-      {/* <MoreWork /> */}
+      <CaseStudies />
+      <MoreWork />
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

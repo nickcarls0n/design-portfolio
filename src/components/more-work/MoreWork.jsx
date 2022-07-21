@@ -45,7 +45,7 @@ const MoreWork = () => {
             </div>
           </div>
         </div>
-        <div className="row py-4">
+        <div className="row">
           <div className="col-sm-4">
             <div className={styles.moreLink}>
               <img
@@ -105,7 +105,7 @@ const MoreWork = () => {
             </div>
           </div>
         </div>
-        <div className="row py-4">
+        <div className="row">
           <div className="col-sm-4">
             <div className={styles.moreLink}>
               <img

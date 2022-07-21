@@ -1,14 +1,33 @@
+@import "../../styles/variables";
+
 .caseStudies {
-  margin-top: 200px;
+  margin-top: 80px;
   margin-bottom: 80px;
 
+  @media screen and (min-width: $sm) {
+    margin-top: 200px;
+  }
+
+  .header {
+    padding-bottom: 60px;
+  }
+
   .caseWrapper {
-    margin-bottom: 160px;
+    margin-bottom: 80px;
+
+    @media screen and (min-width: $sm) {
+      margin-bottom: 160px;
+    }
+  }
+
+  h2 {
+    margin-bottom: 20px;
   }
 
   img {
     width: 100%;
     height: auto;
+    padding-bottom: 40px;
     transition: all 200ms ease-out;
 
     &:hover {

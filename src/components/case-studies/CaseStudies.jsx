@@ -6,7 +6,7 @@ const CaseStudies = () => {
   return (
     <div className={`container ${styles.caseStudies}`}>
       <div className="row">
-        <div className="col">
+        <div className={`col ${styles.header}`}>
           <h1>UI/UX Design</h1>
           <p className="subheading">Case Studies</p>
         </div>
