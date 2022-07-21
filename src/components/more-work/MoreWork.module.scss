@@ -3,7 +3,12 @@
 .wrapper {
   background-color: $section-background;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: calc(80px - 1.5rem);
+
+  @media screen and (min-width: $sm) {
+    padding-top: 100px;
+    padding-bottom: calc(100px - 1rem);
+  }
 
   .headerWrapper {
     padding-bottom: 60px;

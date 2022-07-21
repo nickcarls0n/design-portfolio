@@ -7,7 +7,7 @@ const CaseStudies = () => {
     <div className={`container ${styles.caseStudies}`}>
       <div className="row">
         <div className={`col ${styles.header}`}>
-          <h1>UI/UX Design</h1>
+          <h2>UI/UX Design</h2>
           <p className="subheading">Case Studies</p>
         </div>
       </div>
@@ -24,7 +24,7 @@ const CaseStudies = () => {
           </a>
         </div>
         <div className="col-sm-4 order-sm-1">
-          <h2>Redesigning Qualarc</h2>
+          <h3>Redesigning Qualarc</h3>
           <p>
             QualArc.com had not been updated in at least a decade. The original
             site was little more than an online brochure that had a list of
@@ -46,7 +46,7 @@ const CaseStudies = () => {
           </a>
         </div>
         <div className="col-sm-4">
-          <h2>Cinic Bike</h2>
+          <h3>Cinic Bike</h3>
           <p>
             Cinic Bike Gear is a small mountain bike start up with ambitions to
             grow big. The brand needed a logo, web and e-commerce platform as
@@ -66,7 +66,7 @@ const CaseStudies = () => {
           </a>
         </div>
         <div className="col-sm-4 order-sm-1">
-          <h2>Redesigning Qualarc</h2>
+          <h3>Redesigning Qualarc</h3>
           <p>
             QualArc.com had not been updated in at least a decade. The original
             site was little more than an online brochure that had a list of

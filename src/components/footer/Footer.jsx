@@ -11,18 +11,18 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-5">
             <h2>Contact</h2>
             <a href="mailto:contactncarlson@gmail.com">
               contactncarlson@gmail.com
             </a>
           </div>
-          <div className="col-md-4 d-flex flex-column">
+          <div className="col-md-4 d-flex flex-column mb-5">
             <h2>Navigation</h2>
             <NavLink to="/">Portfolio</NavLink>
             <NavLink to="/about">About</NavLink>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-5">
             <h2>Good Design</h2>
             <p>
               Good design is a matter of discipline. It starts by looking at the
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p>&copy; Nicholas Carlson {year}</p>
+          <p className="mb-0 text-center">&copy; Nicholas Carlson {year}</p>
         </div>
       </div>
     </div>

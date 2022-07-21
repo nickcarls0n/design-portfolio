@@ -14,9 +14,9 @@ const Portfolio = () => {
       <Header />
       <CaseStudies />
       <MoreWork />
-      {/* <About /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <About />
+      <Contact />
+      <Footer />
     </>
   );
 };
