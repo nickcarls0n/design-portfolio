@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../button/Button";
 import styles from "./CaseStudies.module.scss";
+import { NavLink } from "react-router-dom";
 
 const CaseStudies = () => {
   return (
@@ -37,13 +38,13 @@ const CaseStudies = () => {
         className={`row justify-content-between align-items-center ${styles.caseWrapper}`}
       >
         <div className="col-sm-7">
-          <a href="*">
+          <NavLink to="/cinic">
             <img
               src="/images/cinic-case-study.png"
               srcSet="/images/cinic-case-study@2x.png 2x"
               alt="Cinic Bike web mockup"
             />
-          </a>
+          </NavLink>
         </div>
         <div className="col-sm-4">
           <h3>Cinic Bike</h3>
@@ -52,7 +53,7 @@ const CaseStudies = () => {
             grow big. The brand needed a logo, web and e-commerce platform as
             well as printed material and apparel designs.
           </p>
-          <Button to="/">More Info</Button>
+          <Button to="/cinic">More Info</Button>
         </div>
       </div>
       <div className="row justify-content-between align-items-center">

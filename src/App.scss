@@ -35,3 +35,13 @@ h3 {
   line-height: 1.7;
   color: $high-light;
 }
+
+a {
+  color: $high-light;
+  text-decoration: none;
+  transition: all 200ms ease-out;
+
+  &:hover {
+    color: $text-color;
+  }
+}

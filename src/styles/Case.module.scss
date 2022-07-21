@@ -1,0 +1,29 @@
+@import "../styles/variables";
+
+.cinic {
+  background-color: $background;
+  padding-top: 160px;
+
+  h2,
+  h3,
+  a {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .phone {
+    width: 314px;
+    position: absolute;
+    left: -125px;
+    top: 30%;
+  }
+}
