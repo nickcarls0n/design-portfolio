@@ -38,7 +38,7 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <Button to="/">More about me</Button>
+            <Button to="/about">More about me</Button>
           </div>
           <div className={styles.imgWrapper}>
             <img src="/images/headshot.jpg" alt="head shot" />
