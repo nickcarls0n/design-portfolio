@@ -7,7 +7,7 @@ const Cinic = () => {
   return (
     <>
       <Navbar />
-      <div className={styles.cinic}>
+      <div className={styles.caseWrapper}>
         <div className="container">
           <div className="row mb-5">
             <div className="col">
@@ -59,7 +59,7 @@ const Cinic = () => {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="row mb-5">
             <div className="col-md-5">
               <h3>UI/UX</h3>
               <p>
@@ -85,6 +85,14 @@ const Cinic = () => {
                 src="images/cinic/cinic-wire-frame.jpg"
                 alt="Cinic style guide"
               />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6">
+              <img src="images/cinic/Cinic-youtube-placeholder.png" alt="" />
+            </div>
+            <div className="col-md-6">
+              <img src="images/cinic/disobey-shirt-fb-ad.jpg" alt="" />
             </div>
           </div>
         </div>

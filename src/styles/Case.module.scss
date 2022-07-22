@@ -1,6 +1,6 @@
 @import "../styles/variables";
 
-.cinic {
+.caseWrapper {
   background-color: $background;
   padding-top: 160px;
 
@@ -21,9 +21,14 @@
   }
 
   .phone {
-    width: 314px;
-    position: absolute;
-    left: -125px;
-    top: 30%;
+    display: none;
+
+    @media screen and (min-width: $sm) {
+      display: inline;
+      width: 314px;
+      position: absolute;
+      left: -125px;
+      top: 30%;
+    }
   }
 }

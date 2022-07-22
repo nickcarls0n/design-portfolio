@@ -31,7 +31,7 @@ const CaseStudies = () => {
             site was little more than an online brochure that had a list of
             product images and descriptions.
           </p>
-          <Button to="/">More Info</Button>
+          <Button to="/qualarc">More Info</Button>
         </div>
       </div>
       <div
