@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Cinic from "./pages/Cinic";
 import "./App.scss";
 import Qualarc from "./pages/Qualarc";
+import Cha from "./pages/Cha";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/cinic" element={<Cinic />} />
         <Route path="/qualarc" element={<Qualarc />} />
+        <Route path="/cha" element={<Cha />} />
       </Routes>
     </Router>
   );

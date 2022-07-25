@@ -18,8 +18,8 @@ const CaseStudies = () => {
         <div className="col-sm-7 order-sm-2">
           <a href="*">
             <img
-              src="/images/qualarc-case-study.png"
-              srcSet="/images/qualarc-case-study@2x.png 2x"
+              src="/images/qualarc/qualarc-case-study.png"
+              srcSet="/images/qualarc/qualarc-case-study@2x.png 2x"
               alt="Qualarc web mockup"
             />
           </a>
@@ -40,8 +40,8 @@ const CaseStudies = () => {
         <div className="col-sm-7">
           <NavLink to="/cinic">
             <img
-              src="/images/cinic-case-study.png"
-              srcSet="/images/cinic-case-study@2x.png 2x"
+              src="/images/cinic/cinic-case-study.png"
+              srcSet="/images/cinic/cinic-case-study@2x.png 2x"
               alt="Cinic Bike web mockup"
             />
           </NavLink>
@@ -60,20 +60,21 @@ const CaseStudies = () => {
         <div className="col-sm-7 order-sm-2">
           <a href="">
             <img
-              src="/images/qualarc-case-study.png"
-              srcSet="/images/qualarc-case-study@2x.png 2x"
+              src="\images\cha\cha-case-study.png"
+              srcSet="\images\cha\cha-case-study@2x.png 2x"
               alt="Qualarc web mockup"
             />
           </a>
         </div>
         <div className="col-sm-4 order-sm-1">
-          <h3>Redesigning Qualarc</h3>
+          <h3>Commercial & Home Accessories</h3>
           <p>
-            QualArc.com had not been updated in at least a decade. The original
-            site was little more than an online brochure that had a list of
-            product images and descriptions.
+            Commercial & Home Accessories, an online retailer of mailbox, street
+            signs and outdoor home items, needed a way to inform and advertise
+            their expanding installation services to Northern California
+            clients.
           </p>
-          <Button to="/">More Info</Button>
+          <Button to="/cha">More Info</Button>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Qualarc = () => {
         <div className="container">
           <div className="row mb-5">
             <div className="col">
-              <h1>Cinic Bike Gear</h1>
+              <h1>Qualarc Manufacturing</h1>
               <p className="subheading">Brand Identity and Site Design</p>
             </div>
           </div>
