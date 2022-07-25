@@ -6,10 +6,12 @@ import Cinic from "./pages/Cinic";
 import "./App.scss";
 import Qualarc from "./pages/Qualarc";
 import Cha from "./pages/Cha";
+import ScrollToTop from "./scriprts/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
