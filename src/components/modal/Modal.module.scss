@@ -11,12 +11,20 @@
   overflow: auto;
   background-color: rgb(243, 241, 236);
   background-color: rgba(243, 241, 236, 0.95);
+  transition: all 200ms ease-out;
+
+  h2 {
+    margin-bottom: 30px;
+  }
 }
 
 .close {
+  position: fixed;
+  top: 40px;
+  right: 3%;
   width: auto;
   color: $high-light;
-  font-size: 40px;
+  font-size: 60px;
   border-radius: 6px;
   cursor: pointer;
   transition: all 200ms ease-out;

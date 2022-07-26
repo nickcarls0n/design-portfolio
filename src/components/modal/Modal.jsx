@@ -15,10 +15,7 @@ export const Modal = (props) => {
             <a href="">Link to some where?</a>
           </div>
           <div className="col-md-8">
-            <img
-              src="images\more-work\cinic-more-work-placeholder.png"
-              alt="alt text"
-            />
+            <img src={props.img} srcSet={`${props.img2x} 2x`} alt="alt text" />
           </div>
         </div>
       </div>
