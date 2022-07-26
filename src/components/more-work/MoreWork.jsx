@@ -18,8 +18,8 @@ const MoreWork = () => {
           <div className="col-sm-3">
             <div className={styles.moreLink} onClick={() => setViewModal(1)}>
               <img
-                src="/images/more-work/cinic-more-work-placeholder.png"
-                srcSet=""
+                src="\images\more-work\mailkeeper-web-mockup.jpg"
+                srcSet="\images\more-work\mailkeeper-web-mockup@2x.jpg"
               />
             </div>
             {viewModal == 1 && (
@@ -59,8 +59,8 @@ const MoreWork = () => {
           <div className="col-sm-4">
             <div className={styles.moreLink}>
               <img
-                src="/images/more-work/cinic-more-work-placeholder.png"
-                srcSet=""
+                src="\images\more-work\mailkeeper-web-mockup.jpg"
+                srcSet="\images\more-work\mailkeeper-web-mockup@2x.jpg"
               />
             </div>
           </div>
