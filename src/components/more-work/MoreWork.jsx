@@ -113,9 +113,9 @@ const MoreWork = () => {
           {viewModal == 6 && (
             <Modal
               title="CHA Facebook Marketing"
-              text="While I was working with the team at Qualarc the company acquired the Mailkeeper line. Mailkeeper had a limited branding and a very outdated website. I was tasked with updating the old site while maintaining the original branding. I used Adobe XD for the design and created a simple brochure style site using HTML/css, javaScript and Bootstrap."
-              img="\images\more-work\fight-card.jpg"
-              img2x="\images\more-work\fight-card@2x.jpg"
+              text="This was part of a larger marketing push to create assets that would generate traffic to the companies e-commerce site."
+              img="\images\more-work\cha-light-ad.jpg"
+              img2x="\images\more-work\cha-light-ad@2x.jpg"
               onClick={() => setViewModal(0)}
             />
           )}
