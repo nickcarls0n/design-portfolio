@@ -28,7 +28,9 @@ const Cha = () => {
                 images on this page.
               </p>
               <div className="d-flex flex-column">
-                <a href="https://mailboxspecialties.com/">Live Site &gt;</a>
+                <a href="https://mailboxspecialties.com/" target="_blank">
+                  Live Site &gt;
+                </a>
               </div>
             </div>
             <div className="col-md-7 position-relative">

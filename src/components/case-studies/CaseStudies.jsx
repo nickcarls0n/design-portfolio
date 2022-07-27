@@ -16,13 +16,13 @@ const CaseStudies = () => {
         className={`row justify-content-between align-items-center ${styles.caseWrapper}`}
       >
         <div className="col-sm-7 order-sm-2">
-          <a href="*">
+          <NavLink to="/qualarc">
             <img
               src="/images/qualarc/qualarc-case-study.png"
               srcSet="/images/qualarc/qualarc-case-study@2x.png 2x"
               alt="Qualarc web mockup"
             />
-          </a>
+          </NavLink>
         </div>
         <div className="col-sm-4 order-sm-1">
           <h3>Redesigning Qualarc</h3>
@@ -58,13 +58,13 @@ const CaseStudies = () => {
       </div>
       <div className="row justify-content-between align-items-center">
         <div className="col-sm-7 order-sm-2">
-          <a href="">
+          <NavLink to="/cha">
             <img
               src="\images\cha\cha-case-study.png"
               srcSet="\images\cha\cha-case-study@2x.png 2x"
-              alt="Qualarc web mockup"
+              alt="Custom Home Accessories web mockup"
             />
-          </a>
+          </NavLink>
         </div>
         <div className="col-sm-4 order-sm-1">
           <h3>Commercial & Home Accessories</h3>

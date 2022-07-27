@@ -14,8 +14,8 @@ const MoreWork = () => {
             <p className="subheading">UI/UX and Marketing</p>
           </div>
         </div>
-        <div className="row py-3">
-          <div className="col-md-4" onClick={() => setViewModal(1)}>
+        <div className="row py-md-3">
+          <div className="col-md-4 mb-3" onClick={() => setViewModal(1)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\mailkeeper-web-mockup.jpg"
@@ -32,7 +32,7 @@ const MoreWork = () => {
               onClick={() => setViewModal(0)}
             />
           )}
-          <div className="col-md-4" onClick={() => setViewModal(2)}>
+          <div className="col-md-4 mb-3" onClick={() => setViewModal(2)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\trainer-road-calculator.jpg"
@@ -49,7 +49,7 @@ const MoreWork = () => {
               onClick={() => setViewModal(0)}
             />
           )}
-          <div className="col-md-4" onClick={() => setViewModal(3)}>
+          <div className="col-md-4 mb-3" onClick={() => setViewModal(3)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\prestige-plaques-Mockup.jpg"
@@ -67,8 +67,8 @@ const MoreWork = () => {
             />
           )}
         </div>
-        <div className="row py-3">
-          <div className="col-md-4" onClick={() => setViewModal(4)}>
+        <div className="row py-md-3">
+          <div className="col-md-4 mb-3" onClick={() => setViewModal(4)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\fight-card-thumb.jpg"
@@ -85,7 +85,7 @@ const MoreWork = () => {
               onClick={() => setViewModal(0)}
             />
           )}
-          <div className="col-md-4" onClick={() => setViewModal(5)}>
+          <div className="col-md-4 mb-3" onClick={() => setViewModal(5)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\Hang-Ten-Mock-up.jpg"
@@ -101,7 +101,7 @@ const MoreWork = () => {
               onClick={() => setViewModal(0)}
             />
           )}
-          <div className="col-md-4" onClick={() => setViewModal(6)}>
+          <div className="col-md-4 mb-3" onClick={() => setViewModal(6)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\cha-light-ad-thumb.jpg"
@@ -119,8 +119,8 @@ const MoreWork = () => {
             />
           )}
         </div>
-        <div className="row py-3">
-          <div className="col-md-4" onClick={() => setViewModal(7)}>
+        <div className="row py-md-3">
+          <div className="col-md-4 mb-3" onClick={() => setViewModal(7)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\cha-email-mockup-thumb.jpg"
@@ -137,7 +137,7 @@ const MoreWork = () => {
               onClick={() => setViewModal(0)}
             />
           )}
-          <div className="col-md-4" onClick={() => setViewModal(8)}>
+          <div className="col-md-4  mb-3" onClick={() => setViewModal(8)}>
             <div className={styles.moreLink}>
               <img
                 src="\images\more-work\winfield-banner-thumb.png"

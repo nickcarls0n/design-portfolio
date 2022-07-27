@@ -24,8 +24,12 @@ const Cinic = () => {
                 as well as printed material and apparel designs.
               </p>
               <div className="d-flex flex-column">
-                <a href="">Live Site &gt;</a>
-                <a href="">GitHub &gt;</a>
+                <a href="https://cinicbikegear.com/" target="_blank">
+                  Live Site &gt;
+                </a>
+                <a href="https://github.com/nickcarls0n/Cinic" target="_blank">
+                  GitHub &gt;
+                </a>
               </div>
             </div>
             <div className="col-md-7 position-relative">

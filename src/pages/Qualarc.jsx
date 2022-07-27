@@ -27,7 +27,9 @@ const Qualarc = () => {
                 there maybe changes from the images on this page.
               </p>
               <div className="d-flex flex-column">
-                <a href="https://qualarc.com/">Live Site &gt;</a>
+                <a href="https://qualarc.com/" target="_blank">
+                  Live Site &gt;
+                </a>
               </div>
             </div>
             <div className="col-md-7 position-relative">
