@@ -12,7 +12,7 @@ export const Modal = (props) => {
           <div className="col-md-4">
             <h2>{props.title}</h2>
             <p>{props.text}</p>
-            <a href="">Link to some where?</a>
+            {/* <a href="">Link to some where?</a> */}
           </div>
           <div className="col-md-8">
             <img src={props.img} srcSet={`${props.img2x} 2x`} alt="alt text" />
