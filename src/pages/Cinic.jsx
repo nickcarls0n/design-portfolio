@@ -67,9 +67,9 @@ const Cinic = () => {
             <div className="col-md-5">
               <h3>UI/UX</h3>
               <p>
-                As a small startup Cinic needed an online store that would be
-                give them room for product growth as well as offer the ability
-                to become an information hub for the company. I built a custom
+                As a small startup Cinic needed an online store that would give
+                them room for product growth as well as offer the ability to
+                become an information hub for the company. I built a custom
                 theme for WordPress. I am using a plugin to handle the
                 transaction and I have included a blog section that is linked to
                 Cinic’s social media for product updates for a one stop

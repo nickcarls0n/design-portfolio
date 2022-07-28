@@ -15,14 +15,14 @@ const About = () => {
               <h1>About Me</h1>
               <p className="subheading">UI/UX Design and Development</p>
               <p>
-                I'm Nick Carlson, a California based front-end developer and
-                designer. For over 6 years I have been involved in and lead
+                I'm Nick Carlson, a California based designer and front-end
+                developer. For over 6 years I have been involved in and led
                 projects in user interface design, web application development,
                 e-commerce design and implementation as well as creative
                 direction and planning.
               </p>
               <p>
-                When I am not in front of a computer you can find me in th
+                When I am not in front of a computer you can find me in the
                 outdoors or painting. I also have a brown belt in Brazilian Jiu
                 Jitsu.
               </p>

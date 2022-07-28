@@ -16,7 +16,7 @@ const Header = () => {
               </p>
               <p className={styles.tagline}>
                 Seeking remote opportunities or on site assignments in the
-                grater Sacramento area.
+                greater Sacramento area.
               </p>
             </div>
           </div>

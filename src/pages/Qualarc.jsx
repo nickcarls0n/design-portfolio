@@ -21,7 +21,7 @@ const Qualarc = () => {
               <p>
                 When I joined the QualArc team I found a very out dated website,
                 dated product photos and marketing material. The company needed
-                a marketing face lift that would bring it’s product offering
+                a marketing facelift that would bring it’s product offering
                 update without losing the brand awareness that the owner had
                 built. PLEASE NOTE: I am no longer maintaining this site and
                 there maybe changes from the images on this page.
@@ -51,10 +51,10 @@ const Qualarc = () => {
                 QualArc.com had not been updated in at least a decade. The
                 original site was little more than an online brochure that had a
                 list of product images and descriptions. My challenge was to
-                create a mobile friendly e-commerce platform that would show
-                case a wide verity of products while offering an easy to
-                navigate interface with a seamless flow from product selection
-                to checkout.
+                create a mobile friendly e-commerce platform that would showcase
+                a wide variety of products while offering an easy to navigate
+                interface with a seamless flow from product selection to
+                checkout.
               </p>
             </div>
             <div className="col-md-7">
@@ -68,7 +68,7 @@ const Qualarc = () => {
             <div className="col-md-5">
               <h3>UI/UX</h3>
               <p>
-                Researching QualArc’s client base I found a wide verity of
+                Researching QualArc’s client base I found a wide variety of
                 clientele, which made finding a specific audience difficult. The
                 metrics for the original QualArc site showed most users accessed
                 the site from a desktop device, but this may have more to do

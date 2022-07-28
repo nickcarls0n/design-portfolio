@@ -43,7 +43,7 @@ const MoreWork = () => {
           {viewModal == 2 && (
             <Modal
               title="TrainerRoad Calculator"
-              text="Working on the TrainerRoad marketing team, we were trying to create more interaction on the marketing site. I came up with the idea for a calculator that athletes could enter their cycling performance information and compar it to other athletes in the TrainerRoad system. The design was created with style components in Figma, and implemented in React.js"
+              text="Working on the TrainerRoad marketing team, we were trying to create more interaction on the marketing site. I came up with the idea for a calculator that athletes could enter their cycling performance information and compare it to other athletes in the TrainerRoad system. The design was created with style components in Figma, and implemented in React.js"
               img="\images\more-work\watts-kg-calculator.jpg"
               img2x="\images\more-work\watts-kg-calculator@2x.jpg 2x"
               onClick={() => setViewModal(0)}
@@ -60,7 +60,7 @@ const MoreWork = () => {
           {viewModal == 3 && (
             <Modal
               title="Prestige Plaques Logo & Web Design"
-              text="This projects included logo and web a design and implementation of a website where users can select from a number of product options and make a purchase. I used Adobe xd for the design portion and created a custom e-commerce WordPress template using sass and php."
+              text="This project included logo and web a design and implementation of a website where users can select from a number of product options and make a purchase. I used Adobe xd for the design portion and created a custom e-commerce WordPress template using sass and php."
               img="\images\more-work\prestige-plaques-web-full.jpg"
               img2x="\images\more-work\prestige-plaques-web-full@2x.jpg"
               onClick={() => setViewModal(0)}
@@ -79,7 +79,7 @@ const MoreWork = () => {
           {viewModal == 4 && (
             <Modal
               title="Social Media Marketing"
-              text="Social media for events and event based companies can be a great tool to generate engagement. This is a fun project that I worked on to promote a Ju Jitsu tournament. I did the photography work and PhotoShop creation of this Facebook banner. "
+              text="Social media for events and event based companies can be a great tool to generate engagement. This is a fun project that I worked on to promote a Jiu Jitsu tournament. I did the photography work and PhotoShop creation of this Facebook banner. "
               img="\images\more-work\fight-card.jpg"
               img2x="\images\more-work\fight-card@2x.jpg"
               onClick={() => setViewModal(0)}
@@ -96,7 +96,7 @@ const MoreWork = () => {
           {viewModal == 5 && (
             <Modal
               title="Hang Ten Website Revamp"
-              text="Hang Ten is a seafood restaurant in the Bay Area, they had a terribly out-dated website that way not connecting with customers. I worked on this project a number of years ago, so the design was done in PhotoShop and the implementation was done in vanilla HTML/css with a sprinkling of javaScript. The new site now includes location, the complete menu and catering information which were not included on the old site."
+              text="Hang Ten is a seafood restaurant in the Bay Area, they had a terribly out-dated website that was not connecting with customers. I worked on this project a number of years ago, so the design was done in PhotoShop and the implementation was done in vanilla HTML/css with a sprinkling of javaScript. The new site now includes location, the complete menu and catering information which were not included on the old site."
               img2x="\images\more-work\hang-ten-menue@2x.jpg"
               onClick={() => setViewModal(0)}
             />
