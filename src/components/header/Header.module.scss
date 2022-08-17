@@ -7,8 +7,6 @@
 
   @media screen and (min-width: $sm) {
     background-image: url(../../../public/images/header-background-mvp.png);
-    animation: backgroundImg 2500ms ease-out 300ms 1;
-    overflow: hidden;
   }
 
   .textblock {
@@ -29,8 +27,6 @@
 
     @media screen and (min-width: $sm) {
       font-size: 4rem;
-      position: relative;
-      animation: slideIn 900ms ease-out 300ms 1;
     }
   }
 
@@ -44,8 +40,6 @@
     @media screen and (min-width: $sm) {
       font-size: 1.5rem;
       line-height: 2;
-      position: relative;
-      animation: slideIn 900ms ease-out 600ms 1;
     }
   }
 
@@ -57,12 +51,10 @@
     padding-bottom: 60px;
 
     @media screen and (min-width: $sm) {
-      width: 440px;
+      width: 400px;
       font-size: 1.25rem;
       font-weight: 300;
       line-height: 1.7;
-      position: relative;
-      animation: slideIn 900ms ease-out 700ms 1;
     }
   }
 
@@ -72,37 +64,5 @@
     padding-bottom: 40px;
     font-weight: 300;
     color: $high-light;
-    position: relative;
-    animation: bounce 900ms ease-out 2000ms 1;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    right: -1000px;
-  }
-  to {
-    right: 0;
-  }
-}
-
-@keyframes bounce {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: 20px;
-  }
-  100% {
-    top: 0;
-  }
-}
-
-@keyframes backgroundImg {
-  from {
-    background-image: url(../../../public/images/header-no-c-background.png);
-  }
-  to {
-    background-image: url(../../../public/images/header-background-mvp.png);
   }
 }
