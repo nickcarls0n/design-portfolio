@@ -40,7 +40,7 @@ const About = () => {
             </div>
             <Button to="/about">More about me</Button>
           </div>
-          <div className={styles.imgWrapper}>
+          <div className={`col-lg-6 ${styles.imgWrapper}`}>
             <img src="/images/headshot.jpg" alt="head shot" />
           </div>
         </div>
