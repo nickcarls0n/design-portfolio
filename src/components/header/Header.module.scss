@@ -6,8 +6,13 @@
   background-size: cover;
 
   @media screen and (min-width: $sm) {
-    background-image: url(../../../public/images/header-background-mvp.png);
-    animation: backgroundImg 2500ms ease-out 300ms 1;
+    background-image: url(../../../public/images/header-no-c-background.png);
+    animation-name: backgroundImg;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 300ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     overflow: hidden;
   }
 
