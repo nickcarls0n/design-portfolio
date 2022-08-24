@@ -28,8 +28,8 @@ const Contact = () => {
               placeholder="Your Email"
               required
             />
-            <label htmlFor="">Add a Message</label>
-            <textarea name="entry.314039078" rows={5} required />
+            <label htmlFor="message">Add a Message</label>
+            <textarea id="message" name="entry.314039078" rows={5} required />
             <SubmitButton>Submit</SubmitButton>
           </form>
         </div>

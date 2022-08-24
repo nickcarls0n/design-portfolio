@@ -11,6 +11,7 @@ const Navbar = (props) => {
             <img
               src="/images\carlson-design-wordmark.png"
               srcSet="\images\carlson-design-wordmark.png 1x, \images\carlson-design-wordmark@2x.png 2x"
+              alt="site logo"
             />
           </NavLink>
         </div>
