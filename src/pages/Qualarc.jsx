@@ -59,7 +59,7 @@ const Qualarc = () => {
             </div>
             <div className="col-md-7">
               <img
-                src="images/cinic/cinic-style-guide.png"
+                src="images\qualarc\qualarc-style-guide.png"
                 alt="Cinic style guide"
               />
             </div>
