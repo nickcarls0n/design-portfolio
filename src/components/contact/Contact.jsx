@@ -5,7 +5,7 @@ import { SubmitButton } from "../button/Button";
 const Contact = () => {
   return (
     <div className={`container ${styles.contact}`}>
-      <div className="row">
+      <div className="row d-flex align-items-center">
         <div className="col-lg-6">
           <h2>Contact Me</h2>
           <form
@@ -32,6 +32,12 @@ const Contact = () => {
             <textarea id="message" name="entry.314039078" rows={5} required />
             <SubmitButton>Submit</SubmitButton>
           </form>
+        </div>
+        <div className="col-lg-4 offset-lg-1">
+          <p>
+            Please, reach out. I would love to discuses opportunities to work
+            together.
+          </p>
         </div>
       </div>
     </div>
