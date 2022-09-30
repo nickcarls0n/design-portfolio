@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.scss";
-import { Button } from "../button/Button";
 
 const About = () => {
   return (
