@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className={styles.about}>
       <div className="container">
-        <div className="row position-relative">
+        <div className="row d-flex align-items-center">
           <div className={`col-lg-6 ${styles.textSection}`}>
             <h2>About Me</h2>
             <p>
@@ -38,9 +38,8 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <Button to="/about">More about me</Button>
           </div>
-          <div className={`col-lg-6 ${styles.imgWrapper}`}>
+          <div className={`col-lg-4 offset-lg-1 ${styles.imgWrapper}`}>
             <img src="/images/headshot.jpg" alt="head shot" />
           </div>
         </div>

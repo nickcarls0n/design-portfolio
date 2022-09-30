@@ -6,15 +6,11 @@
 
   @media screen and (min-width: $sm) {
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 }
 
 .textSection {
-  padding: 40px;
-  border: $high-light solid 3px;
-  border-radius: 12px;
-
   h2 {
     padding-bottom: 30px;
   }
@@ -25,8 +21,11 @@
 
   @media screen and (min-width: $lg) {
     display: block;
-    position: absolute;
-    left: 44%;
-    top: 200px;
+  }
+
+  img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
   }
 }
